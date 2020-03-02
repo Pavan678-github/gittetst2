@@ -1,0 +1,547 @@
+[ 7-30-2019 11:37:20:647]- LOG(1674): PRODUCTInst--
+[ 7-30-2019 11:37:20:647]- LOG(1674): InitProperties - retrieve props from file 'C:\Users\admin\AppData\Local\Temp\7zS2377\properties.ini'
+[ 7-30-2019 11:37:20:647]- LOG(1674): Installer version: 1.0.5.3
+[ 7-30-2019 11:37:20:647]- LOG(1674):  --- Language IDs ---
+[ 7-30-2019 11:37:20:647]- LOG(1674):   User Default UI Language =   1033,   0x409
+[ 7-30-2019 11:37:20:647]- LOG(1674):   System Default UI Language = 1033,   0x409
+[ 7-30-2019 11:37:20:647]- LOG(1674):   User Default Language ID =   1033,   0x409
+[ 7-30-2019 11:37:20:647]- LOG(1674):   System Default Language ID = 1033,   0x409
+[ 7-30-2019 11:37:20:647]- LOG(1674):   Language ID To Be Used =     1033,   0x409
+[ 7-30-2019 11:37:20:647]- LOG(1674): Is64BitWindows()
+[ 7-30-2019 11:37:20:647]- LOG(1674): Compiled as 64bit app so must be on 64 bit Windows.
+[ 7-30-2019 11:37:20:647]- LOG(1674): OS is 64 bit
+[ 7-30-2019 11:37:20:647]- LOG(1674): cmdline 'PRODUCTI'
+[ 7-30-2019 11:37:20:647]- LOG(1674): -\/\/\/- Properties -\/\/\/-
+[ 7-30-2019 11:37:20:647]- LOG(1674): PRINT_INFNAME = hpljp1005.INF
+[ 7-30-2019 11:37:20:647]- LOG(1674): PRINT_VERNAME = HP1006SU.VER
+[ 7-30-2019 11:37:20:647]- LOG(1674): PRINTER_SERIES_NAME = HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:37:20:647]- LOG(1674): PRODUCT_VIDPID = VID_03F0&PID_3D17, VID_03F0&PID_4817, VID_03F0&PID_4917, VID_03F0&PID_3E17, VID_03F0&PID_3F17, VID_03F0&PID_4017
+[ 7-30-2019 11:37:20:647]- LOG(1674): REG_INSTALLKEY = HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:37:20:647]- LOG(1674): ISRUNNING_MUTEX_NAME = HP1005Installexists
+[ 7-30-2019 11:37:20:647]- LOG(1674): INSTALL_DIRECTORY = HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:37:20:647]- LOG(1674): -/\/\/\- Properties -/\/\/\-
+[ 7-30-2019 11:37:20:647]- LOG(1674): PRODUCT Installer ---------------------------------------------------
+[ 7-30-2019 11:37:20:647]- LOG(1674): InstallSequencer()
+[ 7-30-2019 11:37:20:647]- LOG(1674): InstallSequencer() step = 0
+[ 7-30-2019 11:37:20:647]- LOG(1674): InstallSequencer() step = 1
+[ 7-30-2019 11:37:20:647]- LOG(1674): --- InitializeStep ---
+[ 7-30-2019 11:37:20:647]- LOG(1674): GetLandDir - English
+[ 7-30-2019 11:37:20:647]- LOG(1674):   print inf:C:\Users\admin\AppData\Local\Temp\7zS2377\hpljp1005.INF
+[ 7-30-2019 11:37:20:662]- LOG(1674):   printer verion file: C:\Users\admin\AppData\Local\Temp\7zS2377\HP1006SU.VER
+[ 7-30-2019 11:37:20:662]- LOG(1674):   printer series name: HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:37:20:662]- LOG(1674): GetPrinternamesFromINF()
+[ 7-30-2019 11:37:20:662]- LOG(1674): Is64BitWindows()
+[ 7-30-2019 11:37:20:662]- LOG(1674): Compiled as 64bit app so must be on 64 bit Windows.
+[ 7-30-2019 11:37:20:662]- LOG(1674): InstallSequencer() step = 3
+[ 7-30-2019 11:37:20:662]- LOG(1674): --- LicenseStep --- 
+[ 7-30-2019 11:37:20:662]- LOG(1674):  License file: 'C:\Users\admin\AppData\Local\Temp\7zS2377\\license.txt'
+[ 7-30-2019 11:37:20:725]- LOG(1674): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[ 7-30-2019 11:37:20:740]- LOG(1674): IDLCGenericTextDlg::OnInitDialog 
+[ 7-30-2019 11:37:20:740]- LOG(1674): Strings(): stringsDllPath: C:\Users\admin\AppData\Local\Temp\7zS2377\strings.dll
+[ 7-30-2019 11:37:20:740]- LOG(1674): IDLCGenericTextDlg::OnInitDialog -- load text from file 'C:\Users\admin\AppData\Local\Temp\7zS2377\\license.txt'
+[ 7-30-2019 11:37:20:740]- LOG(1674): Text is plain
+[ 7-30-2019 11:37:23:522]- LOG(1674):  -[ IDLCGenericTextDlg BUTTON 1 pressed ]-
+[ 7-30-2019 11:37:23:537]- LOG(1674): StartProgressDialog()  g_progressDlgRunning = 0
+[ 7-30-2019 11:37:23:537]- LOG(1674): StartProgressDialog()  Starting progress dialog thread ...
+[ 7-30-2019 11:37:23:537]- LOG(1674): Checking thread dialog handle 0
+[ 7-30-2019 11:37:23:537]- LOG(1540): IDLCProgressDlg::OnInitDialog()
+[ 7-30-2019 11:37:23:537]- LOG(1540): IDLCProgressDlg::DoDataExchange
+[ 7-30-2019 11:37:23:537]- LOG(1540): IDLCDialog::OnInitDialog() m_positionOnBottom=1, m_topmost=1, m_followPosition=0
+[ 7-30-2019 11:37:23:647]- LOG(1674): Checking thread dialog handle 0x50776
+[ 7-30-2019 11:37:24:163]- LOG(1674): InstallSequencer() step = 5
+[ 7-30-2019 11:37:24:163]- LOG(1674): --- MsiInstallStep --- 
+[ 7-30-2019 11:37:24:163]- LOG(1674): Installing 1 Core MSIs --
+[ 7-30-2019 11:37:24:163]- LOG(1674): ==================== INSTALL MSI ========================
+[ 7-30-2019 11:37:24:163]- LOG(1674): CMsi::Install(C:\Users\admin\AppData\Local\Temp\7zS2377\\, )
+[ 7-30-2019 11:37:24:163]- LOG(1674): CMsi::_Install(C:\Users\admin\AppData\Local\Temp\7zS2377\\,  REBOOT=ReallySuppress  ADDCLID=1033 )
+[ 7-30-2019 11:37:24:163]- LOG(1674): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 7-30-2019 11:37:24:163]- LOG(1674): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 7-30-2019 11:37:24:163]- LOG(1674): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 7-30-2019 11:37:24:163]- LOG(1674): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 7-30-2019 11:37:24:163]- LOG(1674): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 7-30-2019 11:37:24:163]- LOG(1674): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 7-30-2019 11:37:24:163]- LOG(1674):   Msi ProductCode = UNKNOWN
+[ 7-30-2019 11:37:24:163]- LOG(1674):   Msi UpgradeCode = UNKNOWN
+[ 7-30-2019 11:37:24:163]- LOG(1674):   Msi ProductVersion = UNKNOWN
+[ 7-30-2019 11:37:24:788]- LOG(1674):   --- FAILED install C:\Users\admin\AppData\Local\Temp\7zS2377\\
+[ 7-30-2019 11:37:24:788]- LOG(1674): ===>>> ERROR (gle=3, 0x3):  Msg: The system cannot find the path specified.
+  Context: Failed Core msi Install 
+[ 7-30-2019 11:37:24:788]- LOG(1674): InstallSequencer() step = 4
+[ 7-30-2019 11:37:24:788]- LOG(1674): --- PreInstallStep ---
+[ 7-30-2019 11:37:24:788]- LOG(1674): IsDriverInstalled(List)
+[ 7-30-2019 11:37:24:788]- LOG(1674): IsDriverInstalled(HP LaserJet P1005)
+[ 7-30-2019 11:37:24:788]- LOG(1674): FindInstalledDrivers()
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1005 ?= Microsoft XPS Document Writer v4
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1005 ?= Microsoft Print To PDF
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1005 ?= Send To Microsoft OneNote 2010 Driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1005 ?= Microsoft Shared Fax Driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1005 ?= Microsoft enhanced Point and Print compatibility driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): IsDriverInstalled(HP LaserJet P1007)
+[ 7-30-2019 11:37:24:803]- LOG(1674): FindInstalledDrivers()
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1007 ?= Microsoft XPS Document Writer v4
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1007 ?= Microsoft Print To PDF
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1007 ?= Send To Microsoft OneNote 2010 Driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1007 ?= Microsoft Shared Fax Driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1007 ?= Microsoft enhanced Point and Print compatibility driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): IsDriverInstalled(HP LaserJet P1006)
+[ 7-30-2019 11:37:24:803]- LOG(1674): FindInstalledDrivers()
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1006 ?= Microsoft XPS Document Writer v4
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1006 ?= Microsoft Print To PDF
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1006 ?= Send To Microsoft OneNote 2010 Driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1006 ?= Microsoft Shared Fax Driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1006 ?= Microsoft enhanced Point and Print compatibility driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): IsDriverInstalled(HP LaserJet P1008)
+[ 7-30-2019 11:37:24:803]- LOG(1674): FindInstalledDrivers()
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1008 ?= Microsoft XPS Document Writer v4
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1008 ?= Microsoft Print To PDF
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1008 ?= Send To Microsoft OneNote 2010 Driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1008 ?= Microsoft Shared Fax Driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1008 ?= Microsoft enhanced Point and Print compatibility driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): IsDriverInstalled(HP LaserJet P1505)
+[ 7-30-2019 11:37:24:803]- LOG(1674): FindInstalledDrivers()
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1505 ?= Microsoft XPS Document Writer v4
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1505 ?= Microsoft Print To PDF
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1505 ?= Send To Microsoft OneNote 2010 Driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1505 ?= Microsoft Shared Fax Driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1505 ?= Microsoft enhanced Point and Print compatibility driver
+[ 7-30-2019 11:37:24:803]- LOG(1674): IsDriverInstalled(HP LaserJet P1505n)
+[ 7-30-2019 11:37:24:803]- LOG(1674): FindInstalledDrivers()
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1505n ?= Microsoft XPS Document Writer v4
+[ 7-30-2019 11:37:24:803]- LOG(1674): PrinterDriver?  HP LaserJet P1505n ?= Microsoft Print To PDF
+[ 7-30-2019 11:37:24:819]- LOG(1674): PrinterDriver?  HP LaserJet P1505n ?= Send To Microsoft OneNote 2010 Driver
+[ 7-30-2019 11:37:24:819]- LOG(1674): PrinterDriver?  HP LaserJet P1505n ?= Microsoft Shared Fax Driver
+[ 7-30-2019 11:37:24:819]- LOG(1674): PrinterDriver?  HP LaserJet P1505n ?= Microsoft enhanced Point and Print compatibility driver
+[ 7-30-2019 11:37:24:819]- LOG(1674): _PostProgressMessage hWnd=0x50776 msg=1125, param=17049
+[ 7-30-2019 11:37:24:819]- LOG(1540): IDLCProgressDlg::OnCurrentProgressMsg()
+[ 7-30-2019 11:37:24:819]- LOG(1674): InstallProgramFiles()
+[ 7-30-2019 11:37:24:819]- LOG(1540):    msg=Copying files to the hard drive ...
+[ 7-30-2019 11:37:24:819]- LOG(1674):   programFilesDir:C:\Program Files\HP\HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:37:24:819]- LOG(1674): CopyEntireFolder(C:\Users\admin\AppData\Local\Temp\7zS2377\,C:\Program Files\HP\HP LaserJet P1000_P1500 Series)
+[ 7-30-2019 11:37:24:819]- LOG(1674): CopyFilterFiles(*.*, C:\Users\admin\AppData\Local\Temp\7zS2377\, C:\Program Files\HP\HP LaserJet P1000_P1500 Series)
+[ 7-30-2019 11:37:24:819]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\DIFxAPI.dll to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\DIFxAPI.dll
+[ 7-30-2019 11:37:24:819]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\drv64.cab to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\drv64.cab
+[ 7-30-2019 11:37:24:819]- LOG(1674): CopyFilterFiles(*.*, C:\Users\admin\AppData\Local\Temp\7zS2377\\English, C:\Program Files\HP\HP LaserJet P1000_P1500 Series\English)
+[ 7-30-2019 11:37:24:819]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\English\HP1006SD.chm to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\English\HP1006SD.chm
+[ 7-30-2019 11:37:24:819]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\English\HP1006SD.SDD to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\English\HP1006SD.SDD
+[ 7-30-2019 11:37:24:819]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\English\hp1006SMs.dll to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\English\hp1006SMs.dll
+[ 7-30-2019 11:37:24:819]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\English\HP1006SU.ent to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\English\HP1006SU.ent
+[ 7-30-2019 11:37:24:819]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\English\P1006IPS.dll to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\English\P1006IPS.dll
+[ 7-30-2019 11:37:24:819]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\English\P1006OS.htm to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\English\P1006OS.htm
+[ 7-30-2019 11:37:24:834]- LOG(1674): CopyFilterFiles(*.*, C:\Users\admin\AppData\Local\Temp\7zS2377\\English\x64, C:\Program Files\HP\HP LaserJet P1000_P1500 Series\English\x64)
+[ 7-30-2019 11:37:24:834]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\English\x64\hp1006SMs.dll to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\English\x64\hp1006SMs.dll
+[ 7-30-2019 11:37:24:834]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\hp100632.cat to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\hp100632.cat
+[ 7-30-2019 11:37:24:834]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\hp100664.cat to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\hp100664.cat
+[ 7-30-2019 11:37:24:834]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\HP1006SU.VER to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\HP1006SU.VER
+[ 7-30-2019 11:37:24:834]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\HPLJP1005.INF to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\HPLJP1005.INF
+[ 7-30-2019 11:37:24:834]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\license.txt to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\license.txt
+[ 7-30-2019 11:37:24:850]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\License7z.txt to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\License7z.txt
+[ 7-30-2019 11:37:24:850]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\P1005.img to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\P1005.img
+[ 7-30-2019 11:37:24:850]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\P1006.img to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\P1006.img
+[ 7-30-2019 11:37:24:850]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\P1505.img to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\P1505.img
+[ 7-30-2019 11:37:24:850]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\ProductInst.exe to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\ProductInst.exe
+[ 7-30-2019 11:37:24:850]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\properties.ini to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\properties.ini
+[ 7-30-2019 11:37:24:850]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\Setup.exe to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\Setup.exe
+[ 7-30-2019 11:37:24:850]- LOG(1674): Copy file C:\Users\admin\AppData\Local\Temp\7zS2377\\Strings.dll to C:\Program Files\HP\HP LaserJet P1000_P1500 Series\Strings.dll
+[ 7-30-2019 11:37:24:850]- LOG(1674): _PostProgressMessage hWnd=0x50776 msg=1125, param=13074
+[ 7-30-2019 11:37:24:850]- LOG(1674): Preinstalling inf C:\Users\admin\AppData\Local\Temp\7zS2377\hpljp1005.INF
+[ 7-30-2019 11:37:24:850]- LOG(1540): IDLCProgressDlg::OnCurrentProgressMsg()
+[ 7-30-2019 11:37:24:850]- LOG(1540):    msg=Preinstalling the driver files ...
+[ 7-30-2019 11:37:26:709]- LOG(1674): InstallSequencer() step = 6
+[ 7-30-2019 11:37:26:709]- LOG(1674): --- InstallUsbStep --- PROP_PRINTER_NAME: HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:37:26:709]- LOG(1674): FindInstalledPrinters(driverList 6 elements)
+[ 7-30-2019 11:37:26:709]- LOG(1674): == Searching installed printers for our driver names...
+[ 7-30-2019 11:37:26:709]- LOG(1674):   Driver name: HP LaserJet P1005
+[ 7-30-2019 11:37:26:709]- LOG(1674):   Driver name: HP LaserJet P1007
+[ 7-30-2019 11:37:26:709]- LOG(1674):   Driver name: HP LaserJet P1006
+[ 7-30-2019 11:37:26:709]- LOG(1674):   Driver name: HP LaserJet P1008
+[ 7-30-2019 11:37:26:709]- LOG(1674):   Driver name: HP LaserJet P1505
+[ 7-30-2019 11:37:26:709]- LOG(1674):   Driver name: HP LaserJet P1505n
+[ 7-30-2019 11:37:26:709]- LOG(1674):   -Installed Driver name: Send To Microsoft OneNote 2010 Driver
+[ 7-30-2019 11:37:26:709]- LOG(1674):   -Installed Driver name: Microsoft XPS Document Writer v4
+[ 7-30-2019 11:37:26:709]- LOG(1674):   -Installed Driver name: Microsoft Print To PDF
+[ 7-30-2019 11:37:26:709]- LOG(1674):   -Installed Driver name: Microsoft Shared Fax Driver
+[ 7-30-2019 11:37:26:709]- LOG(1674):  Found NO printers with our drivername
+[ 7-30-2019 11:37:26:709]- LOG(1674): SetDriverPackageInfPath(C:\Users\admin\AppData\Local\Temp\7zS2377\hpljp1005.INF)
+[ 7-30-2019 11:37:26:709]- LOG(1674): _PostProgressMessage hWnd=0x50776 msg=1125, param=13071
+[ 7-30-2019 11:37:26:709]- LOG(1674): _PostProgressMessage hWnd=0x50776 msg=1129, param=0
+[ 7-30-2019 11:37:26:709]- LOG(1540): IDLCProgressDlg::OnCurrentProgressMsg()
+[ 7-30-2019 11:37:26:709]- LOG(1674): _PostProgressMessage hWnd=0x50776 msg=1133, param=0
+[ 7-30-2019 11:37:26:709]- LOG(1540):    msg=Waiting for user to connect the device.
+[ 7-30-2019 11:37:26:709]- LOG(1540): IDLCProgressDlg::OnStopCurrentProgress()
+[ 7-30-2019 11:37:26:709]- LOG(1540): IDLCProgressDlg::OnResetCurrentProgress()
+[ 7-30-2019 11:37:26:741]- LOG(1674): Inside CConnectDlg -- SetTime to Waiting for PnP...
+[ 7-30-2019 11:37:27:444]- LOG(1674): IsNewDeviceConnected(vidpidList with 6 elements)
+[ 7-30-2019 11:37:27:444]- LOG(1674): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_3D17)
+[ 7-30-2019 11:37:27:444]- LOG(1674): _GetUSBDevice first time so GetClassDevs
+[ 7-30-2019 11:37:27:444]- LOG(1674): _GetUSBDevice(index=0, vidpid=VID_03F0&PID_4817)
+[ 7-30-2019 11:37:27:444]- LOG(1674): _GetUSBDevice first time so GetClassDevs
+[ 7-30-2019 11:37:27:444]- LOG(1674): Device: USB\VID_03F0&PID_4817\NC0ERCC
+[ 7-30-2019 11:37:27:444]- LOG(1674): IsDeviceInstalled(USB\VID_03F0&PID_4817\NC0ERCC)
+[ 7-30-2019 11:37:27:444]- LOG(1674): USBdevInstID_to_USBPRINTdevInstID()
+[ 7-30-2019 11:37:27:444]- LOG(1674): GetStringFromHKLM SYSTEM\CurrentControlSet\Enum\USB\VID_03F0&PID_4817\NC0ERCC ParentIdPrefix
+[ 7-30-2019 11:37:27:444]- LOG(1674): GetValueFromHKey SYSTEM\CurrentControlSet\Enum\USB\VID_03F0&PID_4817\NC0ERCC ParentIdPrefix
+[ 7-30-2019 11:37:27:444]- LOG(1674):  Found a device connected that is NOT installed: USB\VID_03F0&PID_4817\NC0ERCC
+[ 7-30-2019 11:37:27:444]- LOG(1674): --!-- New devices connected.  Starting animaton...
+[ 7-30-2019 11:37:27:444]- LOG(1674): _PostProgressMessage hWnd=0x50776 msg=1130, param=0
+[ 7-30-2019 11:37:27:444]- LOG(1674): _PostProgressMessage hWnd=0x50776 msg=1125, param=13072
+[ 7-30-2019 11:37:27:444]- LOG(1540): IDLCProgressDlg::OnStartCurrentProgress(0)
+[ 7-30-2019 11:37:27:444]- LOG(1540): IDLCProgressDlg -- setting current progress tic = 500
+[ 7-30-2019 11:37:27:444]- LOG(1540): IDLCProgressDlg::OnCurrentProgressMsg()
+[ 7-30-2019 11:37:27:444]- LOG(1540):    msg=Device is connected, waiting for PnP to finish installing driver ...
+[ 7-30-2019 11:37:28:147]- LOG(1674): InstallingDriver inf before PnP C:\Users\admin\AppData\Local\Temp\7zS2377\hpljp1005.INF
+[ 7-30-2019 11:37:28:147]- LOG(1674): DRIVER_PACKAGE_FORCE=0x4, DRIVER_PACKAGE_ONLY_IF_DEVICE_PRESENT=0x8, flags=0xc)
+[ 7-30-2019 11:37:28:147]- LOG(1674): InstallDriver(..., flags=0xc)
+[ 7-30-2019 11:37:28:147]- LOG(1674):   inf:C:\Users\admin\AppData\Local\Temp\7zS2377\hpljp1005.INF
+[ 7-30-2019 11:37:29:819]- LOG(1674):   DriverPackageInstall = 0, flags=0x1c
+[ 7-30-2019 11:37:29:850]- LOG(1674): InstallSequencer() step = 7
+[ 7-30-2019 11:37:29:850]- LOG(1674): TerminateProgressThrd(0x6f9780)
+[ 7-30-2019 11:37:29:866]- LOG(1674): _PostProgressMessage hWnd=0x50776 msg=1124, param=0
+[ 7-30-2019 11:37:29:866]- LOG(1540): IDLCProgressDlg::OnTerminate()
+[ 7-30-2019 11:37:30:382]- LOG(1674): --- FinishStep ---
+[ 7-30-2019 11:37:30:382]- LOG(1674): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[ 7-30-2019 11:37:30:382]- LOG(1674): IDLCGenericTextDlg::OnInitDialog 
+[ 7-30-2019 11:37:30:382]- LOG(1674): Text is plain
+[ 7-30-2019 11:37:32:804]- LOG(1674):  -[ IDLCGenericTextDlg BUTTON 0 pressed ]-
+[ 7-30-2019 11:39:18:181]- LOG(1AF4): PRODUCTInst--
+[ 7-30-2019 11:39:18:181]- LOG(1AF4): InitProperties - retrieve props from file 'C:\Users\admin\AppData\Local\Temp\7zS7DCF\properties.ini'
+[ 7-30-2019 11:39:18:181]- LOG(1AF4): Installer version: 1.0.5.3
+[ 7-30-2019 11:39:18:197]- LOG(1AF4):  --- Language IDs ---
+[ 7-30-2019 11:39:18:197]- LOG(1AF4):   User Default UI Language =   1033,   0x409
+[ 7-30-2019 11:39:18:197]- LOG(1AF4):   System Default UI Language = 1033,   0x409
+[ 7-30-2019 11:39:18:197]- LOG(1AF4):   User Default Language ID =   1033,   0x409
+[ 7-30-2019 11:39:18:197]- LOG(1AF4):   System Default Language ID = 1033,   0x409
+[ 7-30-2019 11:39:18:197]- LOG(1AF4):   Language ID To Be Used =     1033,   0x409
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): Is64BitWindows()
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): Compiled as 64bit app so must be on 64 bit Windows.
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): OS is 64 bit
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): cmdline 'PRODUCTI'
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): -\/\/\/- Properties -\/\/\/-
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): PRINT_INFNAME = hpljp1005.INF
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): PRINT_VERNAME = HP1006SU.VER
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): PRINTER_SERIES_NAME = HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): PRODUCT_VIDPID = VID_03F0&PID_3D17, VID_03F0&PID_4817, VID_03F0&PID_4917, VID_03F0&PID_3E17, VID_03F0&PID_3F17, VID_03F0&PID_4017
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): REG_INSTALLKEY = HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): ISRUNNING_MUTEX_NAME = HP1005Installexists
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): INSTALL_DIRECTORY = HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): -/\/\/\- Properties -/\/\/\-
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): PRODUCT Installer ---------------------------------------------------
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): InstallSequencer()
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): InstallSequencer() step = 0
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): InstallSequencer() step = 1
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): --- InitializeStep ---
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): GetLandDir - English
+[ 7-30-2019 11:39:18:197]- LOG(1AF4):   print inf:C:\Users\admin\AppData\Local\Temp\7zS7DCF\hpljp1005.INF
+[ 7-30-2019 11:39:18:197]- LOG(1AF4):   printer verion file: C:\Users\admin\AppData\Local\Temp\7zS7DCF\HP1006SU.VER
+[ 7-30-2019 11:39:18:197]- LOG(1AF4):   printer series name: HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): GetPrinternamesFromINF()
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): Is64BitWindows()
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): Compiled as 64bit app so must be on 64 bit Windows.
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): InstallSequencer() step = 3
+[ 7-30-2019 11:39:18:197]- LOG(1AF4): --- LicenseStep --- 
+[ 7-30-2019 11:39:18:197]- LOG(1AF4):  License file: 'C:\Users\admin\AppData\Local\Temp\7zS7DCF\\license.txt'
+[ 7-30-2019 11:39:18:212]- LOG(1AF4): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[ 7-30-2019 11:39:18:212]- LOG(1AF4): IDLCGenericTextDlg::OnInitDialog 
+[ 7-30-2019 11:39:18:212]- LOG(1AF4): Strings(): stringsDllPath: C:\Users\admin\AppData\Local\Temp\7zS7DCF\strings.dll
+[ 7-30-2019 11:39:18:212]- LOG(1AF4): IDLCGenericTextDlg::OnInitDialog -- load text from file 'C:\Users\admin\AppData\Local\Temp\7zS7DCF\\license.txt'
+[ 7-30-2019 11:39:18:212]- LOG(1AF4): Text is plain
+[ 7-30-2019 11:39:20:853]- LOG(1AF4):  -[ IDLCGenericTextDlg BUTTON 1 pressed ]-
+[ 7-30-2019 11:39:20:853]- LOG(1AF4): StartProgressDialog()  g_progressDlgRunning = 0
+[ 7-30-2019 11:39:20:853]- LOG(1AF4): StartProgressDialog()  Starting progress dialog thread ...
+[ 7-30-2019 11:39:20:853]- LOG(1AF4): Checking thread dialog handle 0
+[ 7-30-2019 11:39:20:869]- LOG(1B00): IDLCProgressDlg::OnInitDialog()
+[ 7-30-2019 11:39:20:869]- LOG(1B00): IDLCProgressDlg::DoDataExchange
+[ 7-30-2019 11:39:20:869]- LOG(1B00): IDLCDialog::OnInitDialog() m_positionOnBottom=1, m_topmost=1, m_followPosition=0
+[ 7-30-2019 11:39:20:978]- LOG(1AF4): Checking thread dialog handle 0x804d8
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): InstallSequencer() step = 5
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): --- MsiInstallStep --- 
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): Installing 1 Core MSIs --
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): ==================== INSTALL MSI ========================
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): CMsi::Install(C:\Users\admin\AppData\Local\Temp\7zS7DCF\\, )
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): CMsi::_Install(C:\Users\admin\AppData\Local\Temp\7zS7DCF\\,  REBOOT=ReallySuppress  ADDCLID=1033 )
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 7-30-2019 11:39:21:494]- LOG(1AF4): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 7-30-2019 11:39:21:494]- LOG(1AF4):   Msi ProductCode = UNKNOWN
+[ 7-30-2019 11:39:21:494]- LOG(1AF4):   Msi UpgradeCode = UNKNOWN
+[ 7-30-2019 11:39:21:494]- LOG(1AF4):   Msi ProductVersion = UNKNOWN
+[ 7-30-2019 11:39:21:525]- LOG(1AF4):   --- FAILED install C:\Users\admin\AppData\Local\Temp\7zS7DCF\\
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): ===>>> ERROR (gle=3, 0x3):  Msg: The system cannot find the path specified.
+  Context: Failed Core msi Install 
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): InstallSequencer() step = 4
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): --- PreInstallStep ---
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): IsDriverInstalled(List)
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): IsDriverInstalled(HP LaserJet P1005)
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): FindInstalledDrivers()
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1005 ?= Microsoft XPS Document Writer v4
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1005 ?= Microsoft Print To PDF
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1005 ?= HP LaserJet P1007
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1005 ?= Send To Microsoft OneNote 2010 Driver
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1005 ?= Microsoft Shared Fax Driver
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1005 ?= Microsoft enhanced Point and Print compatibility driver
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): IsDriverInstalled(HP LaserJet P1007)
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): FindInstalledDrivers()
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1007 ?= Microsoft XPS Document Writer v4
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1007 ?= Microsoft Print To PDF
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1007 ?= HP LaserJet P1007
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): found driver
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1007 ?= Send To Microsoft OneNote 2010 Driver
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1007 ?= Microsoft Shared Fax Driver
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PrinterDriver?  HP LaserJet P1007 ?= Microsoft enhanced Point and Print compatibility driver
+[ 7-30-2019 11:39:21:525]- LOG(1AF4):   Current printer verion file: C:\Windows\system32\spool\DRIVERS\x64\3\HP1006SU.VER
+[ 7-30-2019 11:39:21:525]- LOG(1AF4):   Web bundle printer verion file: C:\Users\admin\AppData\Local\Temp\7zS7DCF\HP1006SU.VER
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): Web bundle 20130415 (1.0.2.2680) is same or newer than current 20130415 (1.0.2.2680)
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): FORCING A DRIVER UPDATE!
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): Driver currently installed, forcing repair driver C:\Users\admin\AppData\Local\Temp\7zS7DCF\hpljp1005.INF
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): _PostProgressMessage hWnd=0x804d8 msg=1125, param=13109
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): RepairDriver()
+[ 7-30-2019 11:39:21:525]- LOG(1B00): IDLCProgressDlg::OnCurrentProgressMsg()
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): PreInstallDriverFiles()
+[ 7-30-2019 11:39:21:525]- LOG(1B00):    msg=Adding Print Drivers ...
+[ 7-30-2019 11:39:21:525]- LOG(1AF4): _PreInstallDriverFiles()
+[ 7-30-2019 11:39:21:525]- LOG(1AF4):   inf:C:\Users\admin\AppData\Local\Temp\7zS7DCF\hpljp1005.INF
+[ 7-30-2019 11:39:22:728]- LOG(1AF4):   DriverPackagePreinstall = 0, flags=0x15
+[ 7-30-2019 11:39:22:728]- LOG(1AF4): InstallDriver(..., flags=0x11)
+[ 7-30-2019 11:39:22:728]- LOG(1AF4):   inf:C:\Users\admin\AppData\Local\Temp\7zS7DCF\hpljp1005.INF
+[ 7-30-2019 11:39:22:728]- LOG(1AF4): StopAService(Spooler)
+[ 7-30-2019 11:39:42:760]- LOG(1AF4): StartAService(Spooler)
+[ 7-30-2019 11:39:46:042]- LOG(1AF4):   DriverPackageInstall = 0, flags=0x11
+[ 7-30-2019 11:39:46:042]- LOG(1AF4): RepairDriver()
+[ 7-30-2019 11:39:46:042]- LOG(1AF4): PreInstallDriverFiles()
+[ 7-30-2019 11:39:46:042]- LOG(1AF4): _PreInstallDriverFiles()
+[ 7-30-2019 11:39:46:042]- LOG(1AF4):   inf:
+[ 7-30-2019 11:39:46:042]- LOG(1AF4):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:39:46:042]- LOG(1AF4): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:39:47:057]- LOG(1AF4): _PreInstallDriverFiles()
+[ 7-30-2019 11:39:47:057]- LOG(1AF4):   inf:
+[ 7-30-2019 11:39:47:057]- LOG(1AF4):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:39:47:057]- LOG(1AF4): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:39:47:057]- LOG(1AF4): Forced repair FAILED: 
+[ 7-30-2019 11:39:47:057]- LOG(1AF4): RepairDriver()
+[ 7-30-2019 11:39:47:057]- LOG(1AF4): PreInstallDriverFiles()
+[ 7-30-2019 11:39:47:057]- LOG(1AF4): _PreInstallDriverFiles()
+[ 7-30-2019 11:39:47:057]- LOG(1AF4):   inf:
+[ 7-30-2019 11:39:47:057]- LOG(1AF4):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:39:47:057]- LOG(1AF4): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:39:48:073]- LOG(1AF4): _PreInstallDriverFiles()
+[ 7-30-2019 11:39:48:073]- LOG(1AF4):   inf:
+[ 7-30-2019 11:39:48:073]- LOG(1AF4):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:39:48:073]- LOG(1AF4): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:39:48:073]- LOG(1AF4): Forced repair FAILED: 
+[ 7-30-2019 11:39:48:073]- LOG(1AF4): RepairDriver()
+[ 7-30-2019 11:39:48:073]- LOG(1AF4): PreInstallDriverFiles()
+[ 7-30-2019 11:39:48:073]- LOG(1AF4): _PreInstallDriverFiles()
+[ 7-30-2019 11:39:48:073]- LOG(1AF4):   inf:
+[ 7-30-2019 11:39:48:073]- LOG(1AF4):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:39:48:073]- LOG(1AF4): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:39:49:089]- LOG(1AF4): _PreInstallDriverFiles()
+[ 7-30-2019 11:39:49:089]- LOG(1AF4):   inf:
+[ 7-30-2019 11:39:49:089]- LOG(1AF4):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:39:49:089]- LOG(1AF4): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:39:49:089]- LOG(1AF4): Forced repair FAILED: 
+[ 7-30-2019 11:39:49:089]- LOG(1AF4): RepairDriver()
+[ 7-30-2019 11:39:49:089]- LOG(1AF4): PreInstallDriverFiles()
+[ 7-30-2019 11:39:49:089]- LOG(1AF4): _PreInstallDriverFiles()
+[ 7-30-2019 11:39:49:089]- LOG(1AF4):   inf:
+[ 7-30-2019 11:39:49:089]- LOG(1AF4):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:39:49:089]- LOG(1AF4): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:39:50:104]- LOG(1AF4): _PreInstallDriverFiles()
+[ 7-30-2019 11:39:50:104]- LOG(1AF4):   inf:
+[ 7-30-2019 11:39:50:104]- LOG(1AF4):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:39:50:104]- LOG(1AF4): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:39:50:104]- LOG(1AF4): Forced repair FAILED: 
+[ 7-30-2019 11:39:50:104]- LOG(1AF4): InstallSequencer() step = 7
+[ 7-30-2019 11:39:50:104]- LOG(1AF4): TerminateProgressThrd(0x201a3f0)
+[ 7-30-2019 11:39:50:104]- LOG(1AF4): _PostProgressMessage hWnd=0x804d8 msg=1124, param=0
+[ 7-30-2019 11:39:50:104]- LOG(1B00): IDLCProgressDlg::OnTerminate()
+[ 7-30-2019 11:39:50:620]- LOG(1AF4): --- FinishStep ---
+[ 7-30-2019 11:39:50:620]- LOG(1AF4): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[ 7-30-2019 11:39:50:620]- LOG(1AF4): IDLCGenericTextDlg::OnInitDialog 
+[ 7-30-2019 11:39:50:620]- LOG(1AF4): Text is plain
+[ 7-30-2019 11:39:52:276]- LOG(1AF4):  -[ IDLCGenericTextDlg BUTTON 0 pressed ]-
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): PRODUCTInst--
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): InitProperties - retrieve props from file 'C:\Users\admin\AppData\Local\Temp\7zS49DC\properties.ini'
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): Installer version: 1.0.5.3
+[ 7-30-2019 11:41:36:953]- LOG(1A7C):  --- Language IDs ---
+[ 7-30-2019 11:41:36:953]- LOG(1A7C):   User Default UI Language =   1033,   0x409
+[ 7-30-2019 11:41:36:953]- LOG(1A7C):   System Default UI Language = 1033,   0x409
+[ 7-30-2019 11:41:36:953]- LOG(1A7C):   User Default Language ID =   1033,   0x409
+[ 7-30-2019 11:41:36:953]- LOG(1A7C):   System Default Language ID = 1033,   0x409
+[ 7-30-2019 11:41:36:953]- LOG(1A7C):   Language ID To Be Used =     1033,   0x409
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): Is64BitWindows()
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): Compiled as 64bit app so must be on 64 bit Windows.
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): OS is 64 bit
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): cmdline 'PRODUCTI'
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): -\/\/\/- Properties -\/\/\/-
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): PRINT_INFNAME = hpljp1005.INF
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): PRINT_VERNAME = HP1006SU.VER
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): PRINTER_SERIES_NAME = HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): PRODUCT_VIDPID = VID_03F0&PID_3D17, VID_03F0&PID_4817, VID_03F0&PID_4917, VID_03F0&PID_3E17, VID_03F0&PID_3F17, VID_03F0&PID_4017
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): REG_INSTALLKEY = HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): ISRUNNING_MUTEX_NAME = HP1005Installexists
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): INSTALL_DIRECTORY = HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): -/\/\/\- Properties -/\/\/\-
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): PRODUCT Installer ---------------------------------------------------
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): InstallSequencer()
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): InstallSequencer() step = 0
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): InstallSequencer() step = 1
+[ 7-30-2019 11:41:36:953]- LOG(1A7C): --- InitializeStep ---
+[ 7-30-2019 11:41:36:969]- LOG(1A7C): GetLandDir - English
+[ 7-30-2019 11:41:36:969]- LOG(1A7C):   print inf:C:\Users\admin\AppData\Local\Temp\7zS49DC\hpljp1005.INF
+[ 7-30-2019 11:41:36:969]- LOG(1A7C):   printer verion file: C:\Users\admin\AppData\Local\Temp\7zS49DC\HP1006SU.VER
+[ 7-30-2019 11:41:36:969]- LOG(1A7C):   printer series name: HP LaserJet P1000_P1500 Series
+[ 7-30-2019 11:41:36:969]- LOG(1A7C): GetPrinternamesFromINF()
+[ 7-30-2019 11:41:36:969]- LOG(1A7C): Is64BitWindows()
+[ 7-30-2019 11:41:36:969]- LOG(1A7C): Compiled as 64bit app so must be on 64 bit Windows.
+[ 7-30-2019 11:41:36:969]- LOG(1A7C): InstallSequencer() step = 3
+[ 7-30-2019 11:41:36:969]- LOG(1A7C): --- LicenseStep --- 
+[ 7-30-2019 11:41:36:969]- LOG(1A7C):  License file: 'C:\Users\admin\AppData\Local\Temp\7zS49DC\\license.txt'
+[ 7-30-2019 11:41:36:969]- LOG(1A7C): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[ 7-30-2019 11:41:36:985]- LOG(1A7C): IDLCGenericTextDlg::OnInitDialog 
+[ 7-30-2019 11:41:36:985]- LOG(1A7C): Strings(): stringsDllPath: C:\Users\admin\AppData\Local\Temp\7zS49DC\strings.dll
+[ 7-30-2019 11:41:36:985]- LOG(1A7C): IDLCGenericTextDlg::OnInitDialog -- load text from file 'C:\Users\admin\AppData\Local\Temp\7zS49DC\\license.txt'
+[ 7-30-2019 11:41:36:985]- LOG(1A7C): Text is plain
+[ 7-30-2019 11:41:38:969]- LOG(1A7C):  -[ IDLCGenericTextDlg BUTTON 1 pressed ]-
+[ 7-30-2019 11:41:38:985]- LOG(1A7C): StartProgressDialog()  g_progressDlgRunning = 0
+[ 7-30-2019 11:41:38:985]- LOG(1A7C): StartProgressDialog()  Starting progress dialog thread ...
+[ 7-30-2019 11:41:38:985]- LOG(1A7C): Checking thread dialog handle 0
+[ 7-30-2019 11:41:38:985]- LOG(1B28): IDLCProgressDlg::OnInitDialog()
+[ 7-30-2019 11:41:38:985]- LOG(1B28): IDLCProgressDlg::DoDataExchange
+[ 7-30-2019 11:41:38:985]- LOG(1B28): IDLCDialog::OnInitDialog() m_positionOnBottom=1, m_topmost=1, m_followPosition=0
+[ 7-30-2019 11:41:39:094]- LOG(1A7C): Checking thread dialog handle 0xd0716
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): InstallSequencer() step = 5
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): --- MsiInstallStep --- 
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): Installing 1 Core MSIs --
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): ==================== INSTALL MSI ========================
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): CMsi::Install(C:\Users\admin\AppData\Local\Temp\7zS49DC\\, )
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): CMsi::_Install(C:\Users\admin\AppData\Local\Temp\7zS49DC\\,  REBOOT=ReallySuppress  ADDCLID=1033 )
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): ===>>> ERROR (gle=110, 0x6e):  Msg: The system cannot open the device or file specified.
+  Context: CMsi::GetPropertyFromMsi MsiOpenDatabase
+[ 7-30-2019 11:41:39:610]- LOG(1A7C): CMsi::GetPropertyFromMsi failed. Setting  to UNKNOWN
+[ 7-30-2019 11:41:39:610]- LOG(1A7C):   Msi ProductCode = UNKNOWN
+[ 7-30-2019 11:41:39:610]- LOG(1A7C):   Msi UpgradeCode = UNKNOWN
+[ 7-30-2019 11:41:39:610]- LOG(1A7C):   Msi ProductVersion = UNKNOWN
+[ 7-30-2019 11:41:39:641]- LOG(1A7C):   --- FAILED install C:\Users\admin\AppData\Local\Temp\7zS49DC\\
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): ===>>> ERROR (gle=3, 0x3):  Msg: The system cannot find the path specified.
+  Context: Failed Core msi Install 
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): InstallSequencer() step = 4
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): --- PreInstallStep ---
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): IsDriverInstalled(List)
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): IsDriverInstalled(HP LaserJet P1005)
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): FindInstalledDrivers()
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1005 ?= Microsoft XPS Document Writer v4
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1005 ?= Microsoft Print To PDF
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1005 ?= Send To Microsoft OneNote 2010 Driver
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1005 ?= Microsoft Shared Fax Driver
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1005 ?= Microsoft enhanced Point and Print compatibility driver
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1005 ?= HP LaserJet P1007
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): IsDriverInstalled(HP LaserJet P1007)
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): FindInstalledDrivers()
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1007 ?= Microsoft XPS Document Writer v4
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1007 ?= Microsoft Print To PDF
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1007 ?= Send To Microsoft OneNote 2010 Driver
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1007 ?= Microsoft Shared Fax Driver
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1007 ?= Microsoft enhanced Point and Print compatibility driver
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PrinterDriver?  HP LaserJet P1007 ?= HP LaserJet P1007
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): found driver
+[ 7-30-2019 11:41:39:641]- LOG(1A7C):   Current printer verion file: C:\Windows\system32\spool\DRIVERS\x64\3\HP1006SU.VER
+[ 7-30-2019 11:41:39:641]- LOG(1A7C):   Web bundle printer verion file: C:\Users\admin\AppData\Local\Temp\7zS49DC\HP1006SU.VER
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): Web bundle 20130415 (1.0.2.2680) is same or newer than current 20130415 (1.0.2.2680)
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): FORCING A DRIVER UPDATE!
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): Driver currently installed, forcing repair driver C:\Users\admin\AppData\Local\Temp\7zS49DC\hpljp1005.INF
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): _PostProgressMessage hWnd=0xd0716 msg=1125, param=13109
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): RepairDriver()
+[ 7-30-2019 11:41:39:641]- LOG(1B28): IDLCProgressDlg::OnCurrentProgressMsg()
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): PreInstallDriverFiles()
+[ 7-30-2019 11:41:39:641]- LOG(1B28):    msg=Adding Print Drivers ...
+[ 7-30-2019 11:41:39:641]- LOG(1A7C): _PreInstallDriverFiles()
+[ 7-30-2019 11:41:39:641]- LOG(1A7C):   inf:C:\Users\admin\AppData\Local\Temp\7zS49DC\hpljp1005.INF
+[ 7-30-2019 11:41:41:000]- LOG(1A7C):   DriverPackagePreinstall = 0, flags=0x15
+[ 7-30-2019 11:41:41:000]- LOG(1A7C): InstallDriver(..., flags=0x11)
+[ 7-30-2019 11:41:41:000]- LOG(1A7C):   inf:C:\Users\admin\AppData\Local\Temp\7zS49DC\hpljp1005.INF
+[ 7-30-2019 11:41:41:000]- LOG(1A7C): StopAService(Spooler)
+[ 7-30-2019 11:41:41:000]- LOG(1A7C): StartAService(Spooler)
+[ 7-30-2019 11:41:43:954]- LOG(1A7C):   DriverPackageInstall = 0, flags=0x11
+[ 7-30-2019 11:41:43:954]- LOG(1A7C): RepairDriver()
+[ 7-30-2019 11:41:43:954]- LOG(1A7C): PreInstallDriverFiles()
+[ 7-30-2019 11:41:43:954]- LOG(1A7C): _PreInstallDriverFiles()
+[ 7-30-2019 11:41:43:954]- LOG(1A7C):   inf:
+[ 7-30-2019 11:41:43:954]- LOG(1A7C):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:41:43:954]- LOG(1A7C): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:41:44:969]- LOG(1A7C): _PreInstallDriverFiles()
+[ 7-30-2019 11:41:44:969]- LOG(1A7C):   inf:
+[ 7-30-2019 11:41:44:969]- LOG(1A7C):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:41:44:969]- LOG(1A7C): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:41:44:969]- LOG(1A7C): Forced repair FAILED: 
+[ 7-30-2019 11:41:44:969]- LOG(1A7C): RepairDriver()
+[ 7-30-2019 11:41:44:969]- LOG(1A7C): PreInstallDriverFiles()
+[ 7-30-2019 11:41:44:969]- LOG(1A7C): _PreInstallDriverFiles()
+[ 7-30-2019 11:41:44:969]- LOG(1A7C):   inf:
+[ 7-30-2019 11:41:44:969]- LOG(1A7C):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:41:44:969]- LOG(1A7C): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:41:45:985]- LOG(1A7C): _PreInstallDriverFiles()
+[ 7-30-2019 11:41:45:985]- LOG(1A7C):   inf:
+[ 7-30-2019 11:41:45:985]- LOG(1A7C):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:41:45:985]- LOG(1A7C): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:41:45:985]- LOG(1A7C): Forced repair FAILED: 
+[ 7-30-2019 11:41:45:985]- LOG(1A7C): RepairDriver()
+[ 7-30-2019 11:41:45:985]- LOG(1A7C): PreInstallDriverFiles()
+[ 7-30-2019 11:41:45:985]- LOG(1A7C): _PreInstallDriverFiles()
+[ 7-30-2019 11:41:45:985]- LOG(1A7C):   inf:
+[ 7-30-2019 11:41:45:985]- LOG(1A7C):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:41:45:985]- LOG(1A7C): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:41:47:001]- LOG(1A7C): _PreInstallDriverFiles()
+[ 7-30-2019 11:41:47:001]- LOG(1A7C):   inf:
+[ 7-30-2019 11:41:47:001]- LOG(1A7C):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:41:47:001]- LOG(1A7C): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:41:47:001]- LOG(1A7C): Forced repair FAILED: 
+[ 7-30-2019 11:41:47:001]- LOG(1A7C): RepairDriver()
+[ 7-30-2019 11:41:47:001]- LOG(1A7C): PreInstallDriverFiles()
+[ 7-30-2019 11:41:47:001]- LOG(1A7C): _PreInstallDriverFiles()
+[ 7-30-2019 11:41:47:001]- LOG(1A7C):   inf:
+[ 7-30-2019 11:41:47:001]- LOG(1A7C):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:41:47:001]- LOG(1A7C): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:41:48:016]- LOG(1A7C): _PreInstallDriverFiles()
+[ 7-30-2019 11:41:48:016]- LOG(1A7C):   inf:
+[ 7-30-2019 11:41:48:016]- LOG(1A7C):   DriverPackagePreinstall = 123, flags=0x15
+[ 7-30-2019 11:41:48:016]- LOG(1A7C): ===>>> ERROR (gle=123, 0x7b):  Msg: The filename, directory name, or volume label syntax is incorrect.
+  Context: DriverPackagePreinstall failed
+[ 7-30-2019 11:41:48:016]- LOG(1A7C): Forced repair FAILED: 
+[ 7-30-2019 11:41:48:016]- LOG(1A7C): InstallSequencer() step = 7
+[ 7-30-2019 11:41:48:016]- LOG(1A7C): TerminateProgressThrd(0x1e99fa0)
+[ 7-30-2019 11:41:48:016]- LOG(1A7C): _PostProgressMessage hWnd=0xd0716 msg=1124, param=0
+[ 7-30-2019 11:41:48:016]- LOG(1B28): IDLCProgressDlg::OnTerminate()
+[ 7-30-2019 11:41:48:532]- LOG(1A7C): --- FinishStep ---
+[ 7-30-2019 11:41:48:532]- LOG(1A7C): IDLCDialog::OnInitDialog() m_positionOnBottom=0, m_topmost=1, m_followPosition=0
+[ 7-30-2019 11:41:48:532]- LOG(1A7C): IDLCGenericTextDlg::OnInitDialog 
+[ 7-30-2019 11:41:48:532]- LOG(1A7C): Text is plain
+[ 7-30-2019 11:41:50:063]- LOG(1A7C):  -[ IDLCGenericTextDlg BUTTON 0 pressed ]-
